@@ -51,7 +51,13 @@ downloads it at runtime.
 ## Install
 
 The package is a DSH *bundle*: it inserts its own plugin row through
-`cordis.patch.yml`. Install it from the checkout directory:
+`cordis.patch.yml`. Clone it anywhere, then install that directory:
+
+```
+git clone https://github.com/hupinghit/dsh-WOT-Skin.git wot-wallpaper
+```
+
+Install it from the checkout directory:
 
 ```
 # in the DSH app: Settings → Plugins → install a local bundle
