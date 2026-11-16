@@ -1,0 +1,65 @@
+﻿{
+  "name": "@local/dsh-wot-wallpaper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "World of Tanks wallpaper for the DSH web GUI: official-site art refreshed at most once a month, one picture per day.",
+  "type": "module",
+  "main": "index.js",
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-bundle",
+    "deepseek-harness",
+    "wallpaper",
+    "background",
+    "world-of-tanks",
+    "wot",
+    "theme"
+  ],
+  "author": "hupinghit",
+  "homepage": "https://github.com/hupinghit/dsh-WOT-Skin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hupinghit/dsh-WOT-Skin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hupinghit/dsh-WOT-Skin/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./icon.svg": "./icon.svg",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "docs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    },
+    "compatibility": {
+      "dshReleases": {
+        "0.2.x": ">=0.2.0 <0.3.0"
+      }
+    }
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.1.0"
+  }
+}

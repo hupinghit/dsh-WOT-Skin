@@ -1,0 +1,3 @@
+- insert:
+    - id: wot-wallpaper
+      name: '@local/dsh-wot-wallpaper'
