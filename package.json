@@ -1,7 +1,6 @@
-﻿{
-  "name": "@local/dsh-wot-wallpaper",
+{
+  "name": "dsh-wot-wallpaper",
   "version": "0.1.0",
-  "private": true,
   "description": "World of Tanks wallpaper for the DSH web GUI: official-site art refreshed at most once a month, one picture per day.",
   "type": "module",
   "main": "index.js",

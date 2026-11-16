@@ -1,17 +1,17 @@
-﻿/**
- * @local/dsh-wot-wallpaper — client half.
+/**
+ * dsh-wot-wallpaper — client half.
  *
  * Paints today's World of Tanks wallpaper behind the DSH web GUI and adds a slim
  * control bar in the `shell.bottom` slot (previous / next / refresh / on-off).
  * The pictures themselves come from the host half over the same origin.
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-wot-wallpaper',
+  id: 'dsh-wot-wallpaper',
   factory(require) {
     const React = require('react')
     const h = React.createElement
 
-    const PKG = '@local/dsh-wot-wallpaper'
+    const PKG = 'dsh-wot-wallpaper'
     const NS = 'wot-wallpaper'
     const PREFIX = '/wot-wallpaper'
     const DAY_MS = 24 * 60 * 60 * 1000

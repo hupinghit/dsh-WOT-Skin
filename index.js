@@ -1,5 +1,5 @@
-﻿/**
- * @local/dsh-wot-wallpaper — host half.
+/**
+ * dsh-wot-wallpaper — host half.
  *
  * Downloads official World of Tanks (worldoftanks.eu) wallpapers at most once
  * every 30 days into `$DSH_HOME/cache/wot-wallpaper/images`, then serves them

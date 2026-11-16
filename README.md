@@ -57,14 +57,14 @@ The package is a DSH *bundle*: it inserts its own plugin row through
 git clone https://github.com/hupinghit/dsh-WOT-Skin.git wot-wallpaper
 ```
 
-Install it from the checkout directory:
+From the npm registry:
 
-```
-# in the DSH app: Settings → Plugins → install a local bundle
-# target = absolute path of this folder
+```json
+{ "action": "install_bundle", "target": "dsh-wot-wallpaper@0.1.0" }
 ```
 
-or with the plugin-manager tool:
+From a local checkout (what the DSH app's *Settings → Plugins → install a local
+bundle* does; the target is the folder that holds `package.json`):
 
 ```json
 { "action": "install_bundle", "target": "F:\\path\\to\\wot-wallpaper" }
